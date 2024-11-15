@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Service - YMusic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="menu-bar">
+            <div class="logo">
+                <img src="c:\Users\Mahalakshmi\Downloads\logo.jpeg" width="100" alt="God Particles Logo">
+            </div>
+            <ul class="menu">
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Discover Premium Benefits with YMusic</h1>
+        <p>Access exclusive content, high-quality audio, and a wide range of music genres today!</p>
+        <button class="cta-btn">Get Started</button>
+        
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="plans">
+        <h2>Choose Your Plan</h2>
+        <p class="plans-description">We offer flexible pricing to suit all types of music lovers. Whether you're a casual listener or a music enthusiast, we've got the right plan for you.</p>
+        <div class="plan-toggle">
+            <button data-type="monthly" class="toggle-btn active">Monthly</button>
+            <button data-type="yearly" class="toggle-btn">Yearly</button>
+        </div>
+        <div class="plan-cards">
+            <div class="plan-card">
+                <h3>Basic</h3>
+                <p class="price" data-monthly="$10" data-yearly="$100">$10</p>
+                <ul>
+                    <li>Standard Audio Quality (128 kbps)</li>
+                    <li>Ads between tracks</li>
+                    <li>1 Device Access</li>
+                    <li>Basic Email Support</li>
+                </ul>
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+            <div class="plan-card">
+                <h3>Pro</h3>
+                <p class="price" data-monthly="$20" data-yearly="$200">$20</p>
+                <ul>
+                    <li>High Audio Quality (320 kbps)</li>
+                    <li>Ad-Free Listening</li>
+                    <li>Up to 3 Devices</li>
+                    <li>Offline Downloads (500 songs)</li>
+                    <li>Priority Email Support</li>
+                </ul>
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+            <div class="plan-card">
+                <h3>Enterprise</h3>
+                <p class="price" data-monthly="$50" data-yearly="$500">$50</p>
+                <ul>
+                    <li>Lossless/FLAC Audio Quality</li>
+                    <li>Ad-Free Listening</li>
+                    <li>Unlimited Devices</li>
+                    <li>Unlimited Offline Downloads</li>
+                    <li>Exclusive Content & Family Sharing (5 accounts)</li>
+                    <li>24/7 Dedicated Support</li>
+                </ul>
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Why Choose Us?</h2>
+        <p>Explore our wide range of features that make us stand out in the world of music streaming. Get access to high-quality audio, offline listening, and much more!</p>
+        <div class="tabs">
+            <button class="tab-btn active" data-target="feature1">Feature 1: Personalized Playlists</button>
+            <button class="tab-btn" data-target="feature2">Feature 2: Genre-Specific Playlists</button>
+            <button class="tab-btn" data-target="feature3">Feature 3: Artist Collaborations</button>
+        </div>
+        <div class="tab-content">
+            <div id="feature1" class="tab active">
+                <h3>Personalized Playlists</h3>
+                <p>Create and share custom playlists based on your music preferences. Let YMusic recommend tracks and playlists that suit your taste.</p>
+                <img src="c:\Users\Mahalakshmi\Downloads\classical.jpeg" width="150" alt="Feature 1 Image">
+            </div>
+            <div id="feature2" class="tab">
+                <h3>Genre-Specific Playlists</h3>
+                <p>From jazz to rock, discover playlists crafted to fit your specific music genres and moods.</p>
+                <img src="c:\Users\Mahalakshmi\Downloads\5809588.jpg" width="150" alt="Feature 2 Image">
+            </div>
+            <div id="feature3" class="tab">
+                <h3>Artist Collaborations</h3>
+                <p>Exclusive artist collaborations, where artists and creators share their journey through music with you.</p>
+                <img src="c:\Users\Mahalakshmi\Downloads\7378126.jpg" alt="Feature 3 Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Users Say</h2>
+        <p>Don't just take our word for it! Hear from our happy customers who are enjoying all the benefits YMusic has to offer.</p>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <p>"YMusic has transformed my music experience. I love the high-quality audio and the exclusive tracks!"</p>
+                <p>- John Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"The offline downloads and multiple devices feature have made it so easy to enjoy music on the go!"</p>
+                <p>- Jane Smith</p>
+            </div>
+            <div class="testimonial">
+                <p>"YMusic's curated playlists are top-notch. I discovered so many new artists I love!"</p>
+                <p>- Mark Wilson</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+        <div>
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:support@godparticles.com">support@godparticles.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+        </div>
+        <div>
+            <a href="#terms">Terms of Service</a>
+            <a href="#privacy">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="action.js"></script>
+</body>
+</html>
